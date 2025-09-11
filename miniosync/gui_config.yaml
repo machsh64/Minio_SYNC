@@ -1,0 +1,13 @@
+mc_path: C:/Users/Administrator/mc/mc.exe
+a_endpoint: 192.168.3.1:9000
+a_secure: false
+a_access: minioadmin
+a_secret: minioadmin
+b_endpoint: 192.168.3.2:9090
+b_secure: false
+b_access: minioadmin
+b_secret: minioadmin
+bucket_a: loga
+bucket_b: logb
+daily_time: 02:00
+remove: false

@@ -1,0 +1,8 @@
+minio==7.2.10
+pyyaml==6.0.2
+watchdog==4.0.1
+rich==13.7.1
+tqdm==4.66.5
+apscheduler==3.10.4
+customtkinter==5.2.2
+

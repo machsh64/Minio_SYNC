@@ -1,0 +1,19 @@
+endpoint: "127.0.0.1:9000"
+secure: false
+access_key: "minioadmin"
+secret_key: "minioadmin"
+
+bucket: "my-bucket"
+prefix: "backup/"
+
+local_dir: "./data"
+
+include:
+  - "**/*"
+exclude:
+  - "**/*.tmp"
+
+concurrency: 4
+etag_by_content: true
+delete_extraneous: false
+
