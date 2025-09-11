@@ -57,6 +57,9 @@ pyinstaller -F -w -n MinioSyncGUI -p . --collect-all customtkinter miniosync/gui
 # 运行 dist/MinioSyncGUI.exe
 ```
 
+图示：
+![应用图示](https://img.cdn1.vip/i/68c2743aeaefb_1757574202.webp)
+
 mc 同步说明：
 - 程序会执行：
   - `mc alias set a http(s)://A access secret`
